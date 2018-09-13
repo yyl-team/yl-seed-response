@@ -1,0 +1,25 @@
+{
+  "name": "yyl-seed-response",
+  "version": "0.1.0",
+  "description": "yyl seed plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackness1208/yyl-seed-response.git"
+  },
+  "author": "jackness",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackness1208/yyl-seed-response/issues"
+  },
+  "homepage": "https://github.com/jackness1208/yyl-seed-response#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
