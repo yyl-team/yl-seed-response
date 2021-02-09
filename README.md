@@ -2,27 +2,28 @@
 
 ## usage
 
-```
-const seedResponse = require('yyl-seed-respnse');
+```javascript
+const SeedResponse = require('yyl-seed-respnse')
 
-const iRes = new seedResponse();
+const iRes = new SeedResponse()
 
 iRes
   .on('msg', (...argv) => {
-    console.log(argv); // hello, world
+    console.log(argv) // hello, world
   })
   .on('finished', (a, b) => {
-    console.log(a);  // hello
-    console.log(b);  // world
-  });
+    console.log(a) // hello
+    console.log(b) // world
+  })
 
-iRes.trigger('msg', ['hello', 'world']);
-iRes.trigger('finished', ['hello', 'world']);
+iRes.trigger('msg', ['hello', 'world'])
+iRes.trigger('finished', ['hello', 'world'])
 ```
 
 ## sdk
 
 ### iRes
+
 ```
 const iRes = new seedResponse();
 ```
